@@ -216,7 +216,7 @@ exports.send = (currentComment, parentComment) => {
   const main_color = process.env.MAIN_COLOR ? process.env.MAIN_COLOR : "orange";
   const main_img = process.env.MAIN_IMG
     ? process.env.MAIN_IMG
-    : "https://ae01.alicdn.com/kf/U5bb04af32be544c4b41206d9a42fcacfd.jpg";
+    : "https://7.dusays.com/2020/10/21/213db80f4c02d.png";
   const emailContent = sendTemplate({
     siteName: process.env.SITE_NAME,
     siteUrl: process.env.SITE_URL,
